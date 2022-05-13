@@ -1,3 +1,5 @@
+--solution :https://www.youtube.com/watch?v=_gy1o9UH2dQ
+
 ---(total number  of friends the user has )/ total number of users on the platform 
 ---total no of users in the platform: union distinct  user1 and user2 
 ----total number of friendsthe user has 
