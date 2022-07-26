@@ -1,0 +1,4 @@
+WITH T 
+AS 
+( SELECT * DENSE_RANK() OVER (ORDER BY Salary Desc) AS Rnk FROM Employees ) 
+SELECT Name FROM T WHERE Rnk=2
